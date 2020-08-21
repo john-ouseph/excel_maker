@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @population.year %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @population.country %>
+</p>
+
+<p>
+  <strong>Continent:</strong>
+  <%= @population.continent %>
+</p>
+
+<p>
+  <strong>Population:</strong>
+  <%= @population.population %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @population.rank %>
+</p>
+
+<%= link_to 'Edit', edit_population_path(@population) %> |
+<%= link_to 'Back', populations_path %>

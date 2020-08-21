@@ -1,0 +1,148 @@
+Wed Aug 19 07:31:23 IST 2020 Waiting for winmagic service and dbus to be ready... 
+Wed Aug 19 07:31:23 IST 2020 Waiting for winmagic service to be ready (1)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 43min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:31:23 IST 2020 wait for dbus to be ready (1)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:31:49 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:31:50 IST 2020 Waiting for winmagic service to be ready (2)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 43min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:31:50 IST 2020 wait for dbus to be ready (2)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:32:15 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:32:16 IST 2020 Waiting for winmagic service to be ready (3)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 44min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:32:16 IST 2020 wait for dbus to be ready (3)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:32:41 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:32:42 IST 2020 Waiting for winmagic service to be ready (4)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 44min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:32:42 IST 2020 wait for dbus to be ready (4)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:33:07 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:33:08 IST 2020 Waiting for winmagic service to be ready (5)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 45min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:33:08 IST 2020 wait for dbus to be ready (5)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:33:33 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:33:34 IST 2020 Waiting for winmagic service to be ready (6)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 45min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:33:34 IST 2020 wait for dbus to be ready (6)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:33:59 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:34:00 IST 2020 Waiting for winmagic service to be ready (7)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 45min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:34:00 IST 2020 wait for dbus to be ready (7)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:34:25 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:34:26 IST 2020 Waiting for winmagic service to be ready (8)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 46min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:34:26 IST 2020 wait for dbus to be ready (8)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:34:51 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:34:53 IST 2020 Waiting for winmagic service to be ready (9)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 46min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:34:53 IST 2020 wait for dbus to be ready (9)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:35:18 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:35:19 IST 2020 Waiting for winmagic service to be ready (10)... 
+Redirecting to /bin/systemctl status winmagic.service
+● winmagic.service - WinMagic SecureDoc management service
+   Loaded: loaded (/usr/lib/systemd/system/winmagic.service; enabled; vendor preset: disabled)
+   Active: active (running) since Wed 2020-08-19 06:48:04 IST; 47min ago
+  Process: 5886 ExecStart=/usr/bin/env /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log (code=exited, status=0/SUCCESS)
+  Process: 5879 ExecStartPre=/bin/rm -f /var/run/winmagic.pid (code=exited, status=0/SUCCESS)
+ Main PID: 5944 (sdservice)
+    Tasks: 3
+   CGroup: /system.slice/winmagic.service
+           └─5944 /usr/local/WinMagic/sdservice -d -p /var/run/winmagic.pid -g /usr/local/WinMagic/sdservice.log
+Wed Aug 19 07:35:19 IST 2020 wait for dbus to be ready (10)... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:35:44 IST 2020 sleep 1 second ... 
+Wed Aug 19 07:35:45 IST 2020 checking password recovery ... 
+Wed Aug 19 07:35:45 IST 2020 user is john.ouseph ... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:36:10 IST 2020 checking password recovery failed: 
+Wed Aug 19 07:36:10 IST 2020 checking deploy status ... 
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Wed Aug 19 07:36:35 IST 2020 checking deploy status failed: 

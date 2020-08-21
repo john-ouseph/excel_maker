@@ -1,0 +1,26 @@
+
+[1mFrom:[0m /home/user/Documents/excel_maker/app/controllers/populations_controller.rb:80 PopulationsController#import_file:
+
+    [1;34m68[0m: [32mdef[0m [1;34mimport_file[0m
+    [1;34m69[0m:   binding.pry
+    [1;34m70[0m:   file_name = params[[33m:file[0m]
+    [1;34m71[0m:   file_path = [31m[1;31m"[0m[31m/home/user/Downloads/#{file_name}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m72[0m:   [1;34m# CSV.foreach(file_path, headers: true, :quote_char => "|", encoding: 'iso-8859-1:utf-8') do |record|[0m
+    [1;34m73[0m:   [1;34m#     # pop = Population.new[0m
+    [1;34m74[0m:   [1;34m#     binding.pry[0m
+    [1;34m75[0m:   [1;34m#     # pop.update_all(year: , country: , continent: , population: , rank: )[0m
+    [1;34m76[0m:   [1;34m# end[0m
+    [1;34m77[0m:   workbook = [1;34;4mRubyXL[0m::[1;34;4mParser[0m.parse(file_path)
+    [1;34m78[0m:   [1;34m# neter the rubyin rthe cell[0m
+    [1;34m79[0m:   sheet = workbook.worksheets[[1;34m0[0m]
+ => [1;34m80[0m:   binding.pry
+    [1;34m81[0m:   sheet.sheet_data.each{ |row|
+    [1;34m82[0m:     [32mnext[0m [32mif[0m row.blank?
+    [1;34m83[0m:     binding.pry
+    [1;34m84[0m:     val = row[[1;34m1[0m].value
+    [1;34m85[0m:     puts val
+    [1;34m86[0m:   }
+    [1;34m87[0m:   binding.pry
+    [1;34m88[0m:   redirect_to [35maction[0m: [31m[1;31m'[0m[31mindex[1;31m'[0m[31m[0m
+    [1;34m89[0m: [32mend[0m
+

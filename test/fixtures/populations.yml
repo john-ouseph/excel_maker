@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: MyString
+  country: MyString
+  continent: MyString
+  population: MyString
+  rank: 1
+
+two:
+  year: MyString
+  country: MyString
+  continent: MyString
+  population: MyString
+  rank: 1
